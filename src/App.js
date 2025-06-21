@@ -180,7 +180,7 @@ export default function JaccardCalculator() {
       )}
       <footer className="footer">
       Inspired by <a href="https://platform.openai.com/tokenizer">OpenAI's tokenizer</a>.
-      Created by <a href="https://github.com/speed1313">speed1313</a>.
+      Created by <a href="https://github.com/speed1313">speed1313</a>. Code is available on <a href="https://github.com/speed1313/jaccard">GitHub</a>.
     </footer>
     </div>
   );

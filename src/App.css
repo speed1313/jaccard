@@ -18,39 +18,32 @@ a:hover {
   max-width: 800px;
   margin: 0 auto;
   padding: 2%;
-  /* %使用：画面サイズに応じて動的に調整 */
   min-padding: 1rem;
-  /* 最小値をremで保証 */
   background: #fff;
 }
 
 h1 {
-  /* rem維持：テキストサイズは読みやすさを重視 */
   margin-bottom: 1%;
 }
 
 p {
-  /* rem維持：テキストサイズ */
   line-height: 1.5;
 }
 
 .button-container {
   display: flex;
   gap: 1%;
-  /* %使用：レイアウト間隔を画面サイズに応じて調整 */
   flex-wrap: wrap;
 }
 
 .tab,
 .button {
   padding: 0.4rem 0.85rem;
-  /* rem維持：ボタンの内側余白は一定に */
   border: 1px solid #ccc;
   background: #fff;
   border-radius: 6px;
   cursor: pointer;
   font-size: 0.8rem;
-  /* rem維持：テキストサイズ */
   margin-bottom: 0.5%;
 }
 
@@ -68,13 +61,10 @@ p {
   width: 100%;
   max-width: 100%;
   height: 140px;
-  /* 固定値またはvh使用を検討 */
   padding: 2%;
-  /* %使用：パディングも画面サイズに応じて */
   border-radius: 6px;
   border: 1px solid #ccc;
   font-size: 0.9rem;
-  /* rem維持：テキストサイズ */
   resize: vertical;
   box-sizing: border-box;
 }
@@ -82,7 +72,6 @@ p {
 .loading {
   color: #555;
   font-size: 0.9rem;
-  /* rem維持：テキストサイズ */
   margin-bottom: 1%;
 }
 
@@ -91,7 +80,6 @@ p {
   background: #fee2e2;
   border: 1px solid #fecaca;
   padding: 2%;
-  /* %使用：コンテナサイズに応じて */
   border-radius: 6px;
   margin-top: 1%;
   box-sizing: border-box;
@@ -99,7 +87,6 @@ p {
 
 .results-section {
   padding-top: 2%;
-  /* %使用：セクション間隔 */
 }
 
 .stats-container {
@@ -107,7 +94,6 @@ p {
   flex-wrap: wrap;
   text-align: center;
   gap: 2%;
-  /* %使用：統計ボックス間の間隔 */
 }
 
 .stat-box {
@@ -116,13 +102,11 @@ p {
 
 .stat-label {
   font-size: 1rem;
-  /* rem維持：テキストサイズ */
   font-weight: 500;
 }
 
 .stat-value {
   font-size: 1.4rem;
-  /* rem維持：テキストサイズ */
   font-weight: 600;
   color: #111;
 }
@@ -131,7 +115,6 @@ p {
   display: flex;
   flex-direction: column;
   gap: 1%;
-  /* %使用：セクション間隔 */
 }
 
 .token-sections>div {
@@ -143,25 +126,19 @@ p {
   flex-wrap: wrap;
   margin-top: 1%;
   gap: 0.35rem;
-  /* rem維持：トークン間の細かい間隔 */
   background: #f1f1f1;
   padding: 2%;
-  /* %使用：コンテナ内パディング */
   border-radius: 6px;
-  /* min-height: 32px; 削除：不要な最小高さを除去 */
   box-sizing: border-box;
   align-content: flex-start;
-  /* 追加：コンテンツを上端に配置 */
 }
 
 .token {
   padding: 0.18rem 0.35rem;
-  /* rem維持：トークンの内側余白 */
   border-radius: 4px;
   background: #e0e7ff;
   color: #1e3a8a;
   font-size: 0.8rem;
-  /* rem維持：テキストサイズ */
 }
 
 .token-common {
@@ -171,11 +148,9 @@ p {
 
 .rule-text {
   margin-top: 2%;
-  /* %使用：セクション間隔 */
   padding-top: 1%;
   border-top: 1px solid #ddd;
   font-size: 0.85rem;
-  /* rem維持：テキストサイズ */
   color: #555;
 }
 
@@ -183,7 +158,6 @@ p {
   display: flex;
   flex-direction: column;
   gap: 3%;
-  /* %使用：入力要素間の間隔 */
   margin-top: 2%;
   margin-bottom: 3%;
   width: 100%;
@@ -203,42 +177,34 @@ p {
   .token-sections {
     flex-direction: row;
     gap: 2%;
-    /* %使用：デスクトップでのセクション間隔 */
   }
 
   .container {
     padding: 2rem;
-    /* デスクトップでは固定値も可 */
   }
 }
 
 .input-label {
   font-size: 0.85rem;
-  /* rem維持：テキストサイズ */
 }
 
 .footer {
   text-align: center;
   margin-top: 2%;
   font-size: 0.8rem;
-  /* rem維持：フッターのテキストサイズ */
   color: #555;
 }
 
-/* 小さい画面での最適化 */
 @media (max-width: 480px) {
   .container {
     padding: 3%;
-    /* 小さい画面では%を大きく */
   }
 
   .split-input {
     gap: 2%;
-    /* 小さい画面では間隔を詰める */
   }
 
   .input-textarea {
     padding: 3%;
-    /* 小さい画面でのパディング調整 */
   }
 }
