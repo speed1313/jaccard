@@ -8,16 +8,19 @@ A simple web app to compute [Jaccard similarity](https://en.wikipedia.org/wiki/J
 </figure>
 
 ## Test
+
 ```bash
 npm install
 npm run start
 ```
 
 ## Deploy
+
 ```bash
 npm run build
 npm run deploy
 ```
 
 ## Acknowledgements
+
 This app is inspired by OpenAI's Tokenizer demo site: https://platform.openai.com/tokenizer.
