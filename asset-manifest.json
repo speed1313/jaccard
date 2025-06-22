@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jaccard/static/css/main.3bc63056.css",
+    "main.css": "/jaccard/static/css/main.37e8d63b.css",
     "main.js": "/jaccard/static/js/main.7c3014d3.js",
     "static/js/453.ab2cd8ac.chunk.js": "/jaccard/static/js/453.ab2cd8ac.chunk.js",
     "index.html": "/jaccard/index.html",
-    "main.3bc63056.css.map": "/jaccard/static/css/main.3bc63056.css.map",
+    "main.37e8d63b.css.map": "/jaccard/static/css/main.37e8d63b.css.map",
     "main.7c3014d3.js.map": "/jaccard/static/js/main.7c3014d3.js.map",
     "453.ab2cd8ac.chunk.js.map": "/jaccard/static/js/453.ab2cd8ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bc63056.css",
+    "static/css/main.37e8d63b.css",
     "static/js/main.7c3014d3.js"
   ]
 }
